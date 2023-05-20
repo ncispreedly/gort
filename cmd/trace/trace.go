@@ -76,7 +76,7 @@ func main() {
 					eyeVec,
 					normalVec,
 				)
-				img.Set(x, y, pixel)
+				img.Set(x, h-1-y, pixel)
 			}
 		}
 	}
